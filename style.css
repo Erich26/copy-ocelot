@@ -6,7 +6,7 @@
 }
 
 .parent {
-    border: 3px solid red;
+    margin: -10px;
     display: flex;
     flex-direction: column;
     background: linear-gradient(#6D9CD5,#FFFFFF)
@@ -23,6 +23,7 @@
 .logo {
     padding: 10px;
     margin: 10px;
+    margin-left: 65px;
     display: flex;
     justify-content: center;
 }
@@ -30,6 +31,7 @@
 .ibm {
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-right: 30px;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -40,22 +42,28 @@
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 0px;
     margin: 10px;
-    margin-left: 120px;
+    margin-left: 140px;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     background: #3C5C89;
-    border-radius: 25px;
     align-items: center;
+    border-radius: 25px;
+    width: 380px;
+    height: 38px;
+}
 
-    
+#glass {
+    mix-blend-mode: multiply;
+    padding-left: 80px; 
 }
 
 .rtab {
     padding: 10px;
     margin: 10px;
-    margin-left: 120px;
+    margin-left: 130px;
     display: flex;
     align-items: center;
 }
@@ -65,6 +73,7 @@
     margin: 5px;
     display: flex;
     justify-content: center;
+    mix-blend-mode: multiply;
 }
 
 .region {
@@ -88,11 +97,23 @@
     justify-content: center;
 }
 
+button {
+    background-color: #FFFFFF;
+    border: none;
+    color: #05336b;
+    width: 81px;
+    height: 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+}
+
 .lines {
     padding: 5px;
     margin: 5px;
     display: flex;
     justify-content: center;
+    mix-blend-mode: multiply;
 }
 
 button {
@@ -118,16 +139,26 @@ button {
 }
 
 .tabs {
-    padding-top: 12px;
+    padding-top: 18px;
     padding-bottom: 12px;
     display: flex;
     flex-direction: row;
     background-color: #051f40;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+#play {
+    padding-right: 5px;
+    mix-blend-mode: multiply;
+}
+
+.video {
+    display: flex;
+    align-items: center;
 }
 
 .parent2 {
-    border: 3px solid orange;
     padding: 10px;
     margin: 10px;
     display: flex;
@@ -136,22 +167,42 @@ button {
 }
 
 .grid {
-    border: 2px solid green;
     padding: 10px;
     margin: 10px;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.topstories {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #FFFFFF;
 }
 
 .ad1 {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+}
+
+#ad1 {
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .ad2 {
     border: 1px solid transparent;
-    padding-left: 80px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #FFFFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+
 }
 
 
