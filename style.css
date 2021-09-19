@@ -105,6 +105,8 @@ button {
 
 .header2 {
     margin-top: -3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     display: flex;
     background-color: #3C5C89;
     align-items: center;
@@ -117,68 +119,14 @@ button {
 }
 
 .tabs {
-    border: 3px solid orange;
-    padding: 10px;
-    margin: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     display: flex;
     flex-direction: row;
+    background-color: #051f40;
+    justify-content: space-evenly;
 }
 
-.today {
-    border: 2px solid green;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.hourly {
-    border: 2px solid green;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.day {
-    border: 2px solid green;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.weekend {
-    border: 2px solid green;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.monthly {
-    border: 2px solid green;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.radar {
-    border: 2px solid green;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.video {
-    border: 2px solid green;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.more {
-    border: 2px solid green;
-    padding: 10px;
-    margin: 10px;
-
-}
 
 
 
